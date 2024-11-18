@@ -1,0 +1,45 @@
+header {
+    height:200px;
+    background-color:rgb(207, 185, 156);
+}
+.hero {
+    min-height: 500px;
+    background-color: rgb(184, 97, 35);
+    color: aliceblue;
+}
+
+.centred-content {
+    max-width: 1200px;
+    margin: auto;
+}
+.intro {
+    background-color: rgb(233, 233, 229);
+}
+.single {
+    background-color: rgb(184, 97, 35);
+    display: flex;
+}
+.single img {
+    width: 300px;
+}
+.song-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.card {
+    /* display: flex; */
+    background-color:  rgb(184, 97, 35);
+}
+.reversed-card {
+    flex-direction: row-reverse;
+}
+.card img {
+    width:300px;
+}
+.tracks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
